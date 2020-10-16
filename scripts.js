@@ -1,5 +1,4 @@
-var projetos = [
-    {
+var projetos = [{
         nome: "Maõ no Musuko",
         link: "https://pc-salesiano.github.io/lead/",
         criador: "Feito em Grupo"
@@ -28,7 +27,13 @@ var projetos = [
         nome: "Quotes",
         link: "https://pc-salesiano.github.io/quotes/",
         criador: "Betina"
+    },
+    {
+        nome: "MinePad",
+        link: "https://pc-salesiano.github.io/minepad/index.html",
+        criador: "Lucas Vieira"
     }
+
 ]
 
 function inserirProjetos() {
