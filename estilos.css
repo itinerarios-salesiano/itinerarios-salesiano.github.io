@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 2rem 5rem;
+    background: #efefef;
+}
+
+.hero {
+    margin: 0;
+    height: 50vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2980B9, #41295a, #2F0743);
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.descricao {
+    font-size: 1.2rem;
+    background: #fff;
+    color: #666;
+    /*   text-shadow: 1px 1px 2px #0000077; */
+    /*   box-shadow: 0px 2px 10px 5px #00000099; */
+}
+
+.bibliotecas {
+    background-color: #fff;
+}
+
+.libs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    color: #fff;
+    padding: 2rem;
+    margin: 0;
+    border-radius: 20px;
+    background: linear-gradient(#2980B9, #2F0743);
+    background-attachment: fixed;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #888;
+}
+
+.lib {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    background-color: #2F0743;
+    color: #fff;
+    border-radius: 25px;
+    transition: .5s ease;
+    text-align: center;
+}
+
+small {
+    font-size: 1rem;
+    display: block;
+}
+
+.lib:hover {
+    transform: scale(1.05);
+    background: #2980B9
+}
+
+p {
+    padding: 20px;
+}
