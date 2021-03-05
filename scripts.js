@@ -1,6 +1,6 @@
 var projetos = [{
         nome: "Maõ no Musuko",
-        link: "https://pc-salesiano.github.io/lead/",
+        link: "https://racso0.itch.io/mao-no-musuko",
         criador: "Feito em Grupo"
     },
     {
