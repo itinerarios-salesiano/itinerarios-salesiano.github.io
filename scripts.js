@@ -1,39 +1,26 @@
 var projetos = [{
-        nome: "Maõ no Musuko",
-        link: "https://racso0.itch.io/mao-no-musuko",
-        criador: "Feito em Grupo"
-    },
-    {
-        nome: "Bots do Discord",
-        link: "https://lopez03.github.io/botsdediscord/index.html",
-        criador: "Feito em Grupo"
-    },
-    {
-        nome: "Lead",
-        link: "https://pc-salesiano.github.io/lead/",
-        criador: "Gabriel Morgado"
-    },
-    {
-        nome: "Clean Apps",
-        link: "https://pc-salesiano.github.io/clean-apps/",
-        criador: "Lucas Maes"
-    },
-    {
-        nome: "Jogos.io",
-        link: "https://pc-salesiano.github.io/jogos-io/",
-        criador: "Henrique"
-    },
-    {
-        nome: "Quotes",
-        link: "https://pc-salesiano.github.io/quotes/",
-        criador: "Betina"
-    },
-    {
-        nome: "MinePad",
-        link: "https://pc-salesiano.github.io/minepad/index.html",
-        criador: "Lucas Vieira"
-    }
-
+    nome: "El TricLab",
+    link: "./projetos/triclab/index.html",
+    criador: "Turma Circuitos Digitais"
+}, {
+    nome: "Labirinto Elétrico",
+    link: "./projetos/labirinto/index.html",
+    criador: "Turma Circuitos Digitais"
+}, {
+    nome: "Lead",
+    link: "https://pc-salesiano.github.io/lead/",
+    criador: "Gabriel Morgado"
+},
+{
+    nome: "Clean Apps",
+    link: "https://pc-salesiano.github.io/clean-apps/",
+    criador: "Lucas Maes"
+},
+{
+    nome: "Quotes",
+    link: "https://pc-salesiano.github.io/quotes/",
+    criador: "Betina"
+}
 ]
 
 function inserirProjetos() {

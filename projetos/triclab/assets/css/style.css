@@ -1,0 +1,29 @@
+#name{
+
+    font-size: 20px;
+}
+.card.card-background.card-background-mask-primary:after{
+    opacity: .60;
+}
+
+#button{
+    color: none;
+    border-color: none;
+    box-shadow: none;
+    border-color: none;
+    border: none;
+    outline: none;
+    background:none;
+}
+
+.myimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.myimages img{
+    object-fit: cover;
+    max-height: 300px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
