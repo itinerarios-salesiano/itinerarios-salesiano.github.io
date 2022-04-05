@@ -10,19 +10,19 @@ var projetos = [{
     ano: 2022
 }, {
     nome: "Lead",
-    link: "https://pc-salesiano.github.io/lead/",
+    link: "https://itinerarios-salesiano.github.io/lead/",
     criador: "Gabriel Morgado",
     ano: 2020
 },
 {
     nome: "Clean Apps",
-    link: "https://pc-salesiano.github.io/clean-apps/",
+    link: "https://itinerarios-salesiano.github.io/clean-apps/",
     criador: "Lucas Maes",
     ano: 2020
 },
 {
     nome: "Quotes",
-    link: "https://pc-salesiano.github.io/quotes/",
+    link: "https://itinerarios-salesiano.github.io/quotes/",
     criador: "Betina",
     ano: 2020
 }
