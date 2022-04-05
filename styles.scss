@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html, body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.section{
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 2em;
+  padding: 2em;
+}
+
+.hero{
+  font-size: 2em;
+  background: #fff;
+  padding: 2rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  color: #333;
+  min-height: 40vh;
+  background: url('/assets/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.descricao{
+  font-size: 1.2em;
+  color: #bbb;
+}
+.projetos{
+  h2{
+    svg{
+      width: 1em;
+      margin-right: .5em;
+    }
+  }
+  .subtitulo{
+    font-size: 1.2em;
+    color: #bbb;
+    margin-top: 1rem;
+  }
+  .lista-projetos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    a{
+      text-decoration: none;
+      color: #333;
+      border: 1px solid #bbb;
+      padding: 1.5em;
+      border-radius: 1em;
+      transition: .3s ease;
+      background-color: #fff;
+      &:hover{
+        filter: drop-shadow(0 0 .5em #f1f1f1);
+        color: #3498db;
+      }
+      small{
+        display: block;
+        font-size: 0.8em;
+        color: #bbb;
+      }
+    }
+  }
+}
+.footer{
+  padding: 1rem;
+  text-align: center;
+  color: #bbb;
+  font-size: .8em;
+  margin-top: 5em;
+  a{
+    color: #85badd;
+    text-decoration: none;
+  }
+}
